@@ -1,0 +1,360 @@
+@charset "UTF-8";
+
+/***상품스토어***/
+.select_opt_list li .non_act:hover {
+    font-weight:500 !important;
+    color:#9b9b9b !important;
+    opacity:0.5 !important;
+    cursor:default !important;
+}
+
+
+/*컬러값이 비활성화 되었을때 (0)값일때*/
+/*비활성화 하고자 하는 부분에 na붙이세요 non-activate*/
+.cbox_color .na {
+    opacity:0.5;
+    cursor:text;
+}
+
+/*가격에서 활성화 되었을 때*/
+.range_select_list ul .act {
+    font-weight:bold;
+    color:#f6a623;
+}
+.range_select_list ul .act a:hover,
+.range_select_list ul .act a:visited
+{
+    font-weight:bold;
+    color:#f6a623;
+}
+/*가격에서 비활성화 되었을때*/
+.range_select_list ul .na a{
+    opacity:0.5;
+    cursor:text;
+}
+.range_select_list ul .na a:hover {
+    opacity:0.5;
+    cursor:text;
+}
+
+/*상품 스토어에서 별점을 클릭하면 태그에 흰색별로 처리된다.*/
+/*별점을 클릭했을떄*/
+.star_rating > .star_on:visited,
+.star_rating > .star_on:focus {
+    color:#fff;
+}
+
+/***약관페이지***/
+.revision_date {
+    float: right;
+    color: #9B9B9B;
+    font-family: SpoqaHanSans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: right;
+}
+
+/***usermodify_ 환불 계좌 정보 변경***/
+.form_list_a > dd {
+    margin-top:12px;
+}
+.um_sel_mid {
+    width: 274px !important;
+}
+
+/***헤더***/
+/*헤더에서 스토어와 매거진을 클릭했을때 hover 효과*/
+#lnb #lnbNav .nav li .main_s {
+    position:relative;
+}
+#lnb #lnbNav .nav li .main_s:hover:after {
+    content: " ";
+    position: absolute;
+    top: -20px;
+    left: 55px;
+    display: inline-block;
+    width: 10px;
+    height: 11px;
+    background-color: #7053ff;
+    border-radius: 100%;
+}
+#lnb #lnbNav .nav li .main_m {
+    position:relative;
+}
+#lnb #lnbNav .nav li .main_m:hover:after {
+    content: " ";
+    position: absolute;
+    top: -6px;
+    left: 51px;
+    display: inline-block;
+    width: 10px;
+    height: 11px;
+    background-color: #7053ff;
+    border-radius: 100%;
+}
+
+/***매거진, 스토어 리스트***/
+/*매거진, 스토어 정렬 소팅 툴팁*/
+.sl_sort_attribute .select_sort dt {
+    position:relative;
+    display:inline-block;
+}
+.sl_sort_attribute .select_sort dt:hover .mz_sort_pop_container {
+    visibility: visible;
+}
+.sl_sort_attribute .select_sort dt img {
+    vertical-align:middle;
+    padding-bottom:2px;
+}
+.sl_sort_attribute .mz_sort_pop_wrapper {
+    position:absolute;
+    padding-top:30px;
+    top:9px;
+    right:-79px;
+}
+.sl_sort_attribute .mz_sort_pop_container {
+    visibility: hidden;
+    width:280px;
+    background-color:#ffffff;
+    border:1px solid #dddddd;
+    box-shadow: 8px 8px 1px 0 rgba(0,0,0,0.09);
+    border-radius: 5px;
+    z-index:1;
+}
+.sl_sort_attribute .mz_sort_pop_container:before {
+    content:'';
+    display:block;
+    position: absolute;
+    top: 25px;
+    left: 134px;
+    width: 10px;
+    height: 10px;
+    background:#FFFFFF;
+    border-right:1px solid #DDDDDD;
+    border-bottom:1px solid #DDDDDD;
+    tranasform: rotate(223deg);
+    -moz-transform:rotate(223deg);
+    -ms-transform: rotate(223deg);
+    -webkit-transform:rotate(-138deg);
+}
+.sl_sort_attribute .mz_sort_pop h4 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 23px;
+    position:relative;
+}
+.sl_sort_attribute .mz_sort_pop h4:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -17px;
+    width:1px;
+    height: 10px;
+    border-left: solid 1px #979797;
+}
+.sl_sort_attribute .mz_sort_pop dl {
+    text-align:left;
+    margin-top:30px;
+}
+.sl_sort_attribute .mz_sort_pop dl dt {
+    margin-left:22px;
+    color: #4A4A4A;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 27px;
+}
+.sl_sort_attribute .mz_sort_pop dl dd {
+    margin-left:22px;
+    color: #747474;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom:18px;
+    display:block !important;
+}
+
+/***주문결제페이지***/
+/*order_end - 배송 예정일은 2017년 10월 28일 입니다. 텍스트*/
+.btn_order_submit .btn_head .ord_end_ship_day{
+    text-align:center !important;
+}
+.btn_order_submit .btn_head .ord_end_ship_day em {
+    color:#484848;
+}
+
+/***1:1문의하기***/
+/*question*/
+.select_sort dd span {
+    color: #BBBBBB;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: right;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:9px;
+    padding-bottom:7px;
+}
+.q_txt_title .q_txt_title_ip {
+    height: 50px;
+    width:1100px;
+    border-top:1px solid #DDDDDD;
+    border-left:1px solid #DDDDDD;
+    border-right:1px solid #DDDDDD;
+    background-color:#f9f9fc;
+    text-indent:25px;
+}
+.q_txt_title input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #BBBBBB;
+    font-size: 14px;
+    line-height: 23px;
+}
+.q_txt_title input::-moz-placeholder { /* Firefox 19+ */
+    color: #BBBBBB;
+    font-size: 14px;
+    line-height: 23px;
+}
+.q_txt_title input:-ms-input-placeholder { /* IE 10+ */
+    color: #BBBBBB;
+    font-size: 14px;
+    line-height: 23px;
+}
+.q_txt_title input:-moz-placeholder { /* Firefox 18- */
+    color: #BBBBBB;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+/***장바구니 페이지***/
+/*할인쿠폰 적용 전 가격 멤버십 할인 및 쿠폰*/
+.cart_result {
+    margin-top:43px;
+}
+.cart_result .before_coupon_txt {
+    color: #8F8F8F;
+    font-family: SpoqaHanSans;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 40px;
+}
+.cart_result .before_coupon_txt strong {
+    color: #8F8F8F;
+    font-family: SpoqaHanSans;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+/***마이페이지***/
+/*주문내역*/
+/*배송 예정일은 ...*/
+.ord_h_ship_date {
+    display:inline-block;
+    text-align:right !important;
+    color: #8F8F8F;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    margin-bottom:5px;
+}
+.ord_h_ship_date em {
+    color:#6a6a6a;
+}
+.prd_list_btn li .ord_h_ship_ing {
+    color:#fff !important;
+    background-color:#71BEF3;
+    font-weight:bold;
+}
+.prd_list_btn li .ord_h_ship_ing:hover {
+    border:unset !important;
+    color:#fff !important;
+    font-weight:bold;
+}
+.btn_opt_msg .ord_h_acquire {
+    display:inline-block;
+    color:#F5A623 !important;
+    font-size:14px;
+    font-weight:bold;
+    line-height:15px;
+    margin-bottom:10px;
+}
+.prd_list_btn .ord_h_com {
+    background-color: #57C985 !important;
+    color:#fff !important;
+}
+.prd_list_btn .ord_h_com:hover {
+    color:#fff !important;
+    border:0 !important;
+}
+.prd_top_list_last {
+    border-bottom:1px solid #E1E1E1 !important;
+}
+
+/***상품상세페이지***/
+/*리뷰보기 페이지*/
+
+
+ .sr_list {
+     border-top: 1px solid #EBEBEB;
+     border-bottom: 1px solid #EBEBEB;
+ }
+.sr_prd_list_a {
+    background-color:red;
+}
+.sp_review_shoe_list {
+    position:relative;
+}
+.sp_review_shoe_list .like {
+    display:inline-block;
+    float:left !important;
+    font-size: 12px !important;
+    position:absolute;
+    top:22px;
+    left:118px;
+}
+.sp_review_shoe_list .subject {
+    color: #000000 !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    line-height: 20px !important;
+}
+.sp_review_shoe_list .price .sell_price {
+    color: #000000 !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    line-height: 20px !important;
+    position:relative;
+}
+.sp_review_shoe_list .customer_price {
+    color: #d4d4d4 !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
+    line-height: 20px !important;
+    position: absolute;
+    left: 59px;
+    top: 72px;
+}
+.sr_review_box_list {
+    margin-top: 40px;
+}
+
+
+/* 서브 컬러 */
+.detial_color_list li {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

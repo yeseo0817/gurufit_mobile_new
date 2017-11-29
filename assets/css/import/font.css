@@ -1,0 +1,59 @@
+/* Spoqa */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+/* Noto Sans */
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/* TeX Gyre Adventor */
+@font-face {
+    font-family: 'texgyreadventorregular';
+    src: url('../../font/texgyreadventor-regular-webfont.eot');
+    src: url('../../font/texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../font/texgyreadventor-regular-webfont.woff') format('woff'),
+         url('../../font/texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('../../font/texgyreadventor-regular-webfont.svg#texgyreadventorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'texgyreadventoritalic';
+    src: url('../../font/texgyreadventor-italic-webfont.eot');
+    src: url('../../font/texgyreadventor-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../font/texgyreadventor-italic-webfont.woff') format('woff'),
+         url('../../font/texgyreadventor-italic-webfont.ttf') format('truetype'),
+         url('../../font/texgyreadventor-italic-webfont.svg#texgyreadventoritalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'texgyreadventorbold_italic';
+    src: url('../../font/texgyreadventor-bolditalic-webfont.eot');
+    src: url('../../font/texgyreadventor-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../font/texgyreadventor-bolditalic-webfont.woff') format('woff'),
+         url('../../font/texgyreadventor-bolditalic-webfont.ttf') format('truetype'),
+         url('../../font/texgyreadventor-bolditalic-webfont.svg#texgyreadventorbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'texgyreadventorbold';
+    src: url('../../font/texgyreadventor-bold-webfont.eot');
+    src: url('../../font/texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../font/texgyreadventor-bold-webfont.woff') format('woff'),
+         url('../../font/texgyreadventor-bold-webfont.ttf') format('truetype'),
+         url('../../font/texgyreadventor-bold-webfont.svg#texgyreadventorbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../../font/fontello.eot?42002965');
+  src: url('../../font/fontello.eot?42002965#iefix') format('embedded-opentype'),
+       url('../../font/fontello.woff2?42002965') format('woff2'),
+       url('../../font/fontello.woff?42002965') format('woff'),
+       url('../../font/fontello.ttf?42002965') format('truetype'),
+       url('../../font/fontello.svg?42002965#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
